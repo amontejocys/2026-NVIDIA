@@ -5,7 +5,7 @@
 **GitHub Repository:** https://github.com/amontejocys/2026-NVIDIA
 
 ---
-
+ 
 > **Note to Students:** > The questions and examples provided in the specific sections below are **prompts to guide your thinking**, not a rigid checklist. 
 > * **Adaptability:** If a specific question doesn't fit your strategy, you may skip or adapt it.
 > * **Depth:** You are encouraged to go beyond these examples. If there are other critical technical details relevant to your specific approach, please include them.
@@ -90,17 +90,21 @@
 **Owner:** Technical Marketing PIC
 
 ### Agentic Workflow
-* **Plan:** [How will you orchestrate your tools?]
-    * *Example:* "We are using Cursor as the IDE. We have created a `skills.md` file containing the CUDA-Q documentation so the agent doesn't hallucinate API calls. The QA Lead runs the tests, and if they fail, pastes the error log back into the Agent to refactor."
+* **Plan:** AI acts as the conductor of the workflow, orchestrating both quantum and classical instruments. It automates the population generation, manages the mutation and tabu search cycles, and dynamically adjusts parameters based on convergence signals. Instead of manually tuning, AI continuously learns from prior runs, turning the workflow into a self‑optimizing loop.
+* We'll mainly use Jupyter Notebook for our implementation and testing.
 
 ### Success Metrics
-* **Metric 1 (Approximation):** [e.g., Target Ratio > 0.9 for N=30]
-* **Metric 2 (Speedup):** [e.g., 10x speedup over the CPU-only Tutorial baseline]
-* **Metric 3 (Scale):** [e.g., Successfully run a simulation for N=40]
+* **Metric 1 ((\(C_{QAOA}/C_{max}\))):** AI‑guided heuristics ensure approximation ratios >0.9 for N=30 by adaptively steering the search toward promising regions of the solution space. Approximation Ratio 
+* **Metric 2 (Probability of Measuring the Optimal Solution (\(P(C_{max})\))):** AI‑driven orchestration achieves a 10x speedup compared to CPU‑only baselines by intelligently scheduling GPU kernels and quantum sampling tasks.
+* **Metric 3 (Ratio = \((R_{p}-R_{p-1})\)):** AI enables scaling to N=40+ by pruning redundant search paths and focusing compute resources where they matter most.
+And other generally used metrics for evaluating QAOA.
 
 ### Visualization Plan
-* **Plot 1:** [e.g., "Time-to-Solution vs. Problem Size (N)" comparing CPU vs. GPU]
-* **Plot 2:** [e.g., "Convergence Rate" (Energy vs. Iteration count) for the Quantum Seed vs. Random Seed]
+* **Plot 1:** "- "Quantum vs. Classical Sampling Distribution"
+Compare probability amplitudes from CUDA‑Q circuits against uniform random sampling, revealing how quantum bias favors low‑energy states."
+
+* **Plot 2:** - "Hybrid Convergence Trajectory"
+Overlay convergence curves of classical tabu search vs. quantum‑seeded MTS, showing accelerated descent when seeded by quantum results.
 
 ---
 
