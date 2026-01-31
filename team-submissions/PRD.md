@@ -37,9 +37,7 @@
    
 
 ### Literature Review
-* **Reference:** Quantum Approximate Optimization Algorithm (QAOA), Farhi, Goldstone & Gutmann (2014)
-* **Relevance:** 
-    * Justifies the use of QAOA with low depth circuits
+
 
 * **Reference:** [ Science Advances 2024, Shaydulin et al, [Link](https://www.science.org/doi/10.1126/sciadv.adm6761)]
 * **Relevance:** [How does this paper support your plan?]
