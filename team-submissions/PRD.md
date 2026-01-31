@@ -41,12 +41,14 @@
 * **Relevance:** 
     * Justifies the use of QAOA with low depth circuits
 
-
+* **Reference:** [ Science Advances 2024, Shaydulin et al, [Link](https://www.science.org/doi/10.1126/sciadv.adm6761)]
 * **Relevance:** [How does this paper support your plan?]
-    * * "Evidence of scaling advantage for the quantum approximate optimization algorithm on a classically intractable problem Shaydulin et al  Science Advances 2024
+    * * "Evidence of scaling advantage for the quantum approximate optimization algorithm on a classically intractable problem  
 Quantum Optimization Benchmark Library: The Intractable Decathlon (Kipu Quantum, 2025)"
-
-
+* **Reference:** [ Quantum Optimization Benchmark Library: The Intractable Decathlon, Kipu Quantum, [Link]([https://www.science.org/doi/10.1126/sciadv.adm6761](https://kipu-quantum.com/knowledge-hub/blog/quantum-optimization-benchmark-library-the-intractable-decathlon/))]
+* **Relevance:** [How does this paper support your plan?]
+    * * "While Digitized Counter-Diabatic (DC) methods can achieve high performance with fewer gates, standard QAOA (at $p=12$) remains the reliable benchmark that has already demonstrated a scaling advantage over Memetic Tabu Search."
+ 
 ---
 
 ## 3. The Acceleration Strategy
